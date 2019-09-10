@@ -1,15 +1,16 @@
 {
     "s3":{
-        "access”:”YOUR_ACCESS”,
-        "secret”:”YOUR_SECRET”,
+        "access":"YOUR_ACCESS",
+        "secret":"YOUR_SECRET",
         "region":"s3.amazonaws.com",
-        "bucket”:”BUCKET”},
+        "bucket":"BUCKET"},
     "site":{
-        "title”:”TITLE”,
-        "slogan”:”SLOGAN”,
-        "domain”:”domain.com",
-        "background":"https://domain.com/bg.jpg”,
-        "keywords": “some, keywords”,
-        "description": “This is description.”
+        "title":"TITLE",
+        "slogan":"SLOGAN",
+        "domain":"domain.com",
+        "background":"https://domain.com/bg.jpg",
+        "keywords": "some, keywords",
+        "description": "This is description.",
+        "pagesize": 20
     }
 }

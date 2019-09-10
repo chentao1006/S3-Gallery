@@ -23,7 +23,7 @@ if (!$bucket_contents) {
     $filtered_contents = $bucket_contents;
 }
 
-$random_keys = array_rand($filtered_contents, 20);
+$random_keys = array_rand($filtered_contents, $config['site']['pagesize']);
 ?>
 <html>
     <head>
@@ -100,7 +100,7 @@ $random_keys = array_rand($filtered_contents, 20);
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f9f655636b50769" async="true"></script>
         <!-- AddThis Button END -->
         <div style="text-align: center;">
-            <a href="/?<?= rand(10000, 99999) ?>" title="Get more naked girls!"><img src="/include/refresh.png" /></a>
+            <a href="/?<?= rand(10000, 99999) ?>" title="Refresh"><img src="/include/refresh.png" /></a>
         </div>
         <p>&copy; <?=date('Y')?> <?=$config['site']['domain']?> <?=$config['site']['title']?> - <?=$config['site']['slogan']?></p>
         <script>
